@@ -11,6 +11,7 @@ public interface Client {
 
     boolean addVideo(Video video, String password);
 
+
     boolean addAudio(Audio audio, String password);
 
     boolean addFriend(Profile whom, Profile who, String password);
